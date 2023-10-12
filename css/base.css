@@ -1,0 +1,86 @@
+/* Content
+--------------------------------------------------
+1. Colors   
+2. Base typography
+3. General
+4. Pre-defined classes
+5. Headings
+*/
+
+:root {
+ /** 1. Colors
+ -------------------------*/
+ --maincolor300: rgb(51 65 85);
+ --maincolor600: rgb(51 65 85);
+ --maincolor700: #385d6a;
+ --maincolor800: #e6e6e6;
+ --maincolor900: #dddddd;
+
+ /** 2. Base typography
+-------------------------*/
+ --ff-base: "Outfit", arial, helvetica, sans-serif;
+ --ff-accent: "Outfit", arial, helvetica, sans-serif;
+
+ --paragraph-font: "Outfit", sans-serif;
+ --heading1-font: "Outfit", sans-serif;
+ --heading2-font: "Outfit", sans-serif;
+}
+
+/** 3. General
+-------------------------*/
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+ background-color: white;
+ font-family: Outfit, Arial, sans-serif;
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ line-height: 1.6;
+ font-size: 1.1rem;
+}
+
+section {
+ max-width: 1200px;
+ margin: auto;
+ padding: 100px;
+}
+/** 4. Pre-defined classes
+-------------------------*/
+.paragraph {
+ font-family: var(--paragraph-font);
+ font-weight: 400;
+ color: var(--maincolor300);
+}
+
+.flex {
+ display: flex;
+}
+
+.flex-between {
+ display: flex;
+ justify-content: space-between;
+}
+
+/** 5. Headings
+-------------------------*/
+
+h1 {
+ color: var(--maincolor600);
+ font-family: var(--heading1-font);
+ font-size: clamp(1.25rem, 0.2641rem + 4.9296vw, 3rem);
+}
+
+h2 {
+ color: var(--maincolor600);
+ font-family: var(--heading2-font);
+ font-size: clamp(1rem, 0.2641rem + 3vw, 2rem);
+}
