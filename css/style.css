@@ -99,12 +99,12 @@
  display: flex;
  flex-direction: row;
  margin-bottom: 45px;
- border: 1px solid #eaeaea33;
+ /* border: 1px solid #eaeaea33; */
  border-radius: 10px;
- padding: 10px;
+ /* padding: 10px; */
  justify-content: space-between;
- position: relative; /* Set the position to relative for positioning the links */
- box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow for the floating effect */
+ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2); /* Add box shadow for the floating effect */
+ background-color: white;
 }
 
 /* For mobile devices, change the flex-direction to column */
@@ -118,6 +118,7 @@
   width: 100%;
   height: auto;
   margin-right: 0;
+  border-radius: 10px;
  }
 
  .project-info {
@@ -130,9 +131,10 @@
 /* For larger screens, reduce the image width to a reasonable size */
 @media (min-width: 769px) {
  .project-screenshot {
-  max-width: 50%;
+  max-width: 54%;
   height: auto;
   margin-right: 10px;
+  border-radius: 10px 0px 0px 10px;
  }
 }
 
