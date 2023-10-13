@@ -1,7 +1,7 @@
 /* Content
 --------------------------------------------------
     1. Navbar
-    2. Footer
+    2. Project Cards
 */
 
 /** 1. Navbar
@@ -65,4 +65,82 @@
  .nav-toggle {
   display: block;
  }
+}
+
+/** 2. Project Cards
+-------------------------*/
+.project-card {
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 45px;
+ /* border: 1px solid #eaeaea33; */
+ border-radius: 10px;
+ /* padding: 10px; */
+ justify-content: space-between;
+ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2); /* Add box shadow for the floating effect */
+ background-color: white;
+}
+
+/* For mobile devices, change the flex-direction to column */
+@media (max-width: 768px) {
+ .project-card {
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .project-screenshot {
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+  border-radius: 10px;
+ }
+
+ .project-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+ }
+}
+
+/* For larger screens, reduce the image width to a reasonable size */
+@media (min-width: 769px) {
+ .project-screenshot {
+  max-width: 54%;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 10px 0px 0px 10px;
+ }
+}
+
+.project-info {
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+}
+
+.project-title {
+ font-size: 24px;
+ margin: 0;
+ color: var(--clr-primary-300);
+}
+
+.project-description {
+ margin: 10px 0;
+}
+
+.project-links {
+ position: absolute;
+ bottom: 10px;
+ right: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+}
+
+.project-link {
+ text-decoration: none;
+ color: var(--clr-primary-300);
+ font-weight: bold;
+ display: inline-block;
+ margin-top: 5px;
 }
