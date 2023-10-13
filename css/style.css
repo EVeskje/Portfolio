@@ -35,7 +35,7 @@
  font-size: clamp(1rem, 0.4286rem + 2.8571vw, 1.5rem);
  font-weight: bold;
  font-family: var(--paragraph-font);
- color: var(--maincolor600);
+ color: var(--clr-primary-300);
  margin-bottom: 1rem;
 }
 
@@ -78,7 +78,7 @@
 -------------------------*/
 
 .portfolio-wrapper {
- background-color: var(--maincolor900);
+ background-color: var(--clr-primary-600);
  display: flex;
  align-items: center;
  justify-content: center;
@@ -145,7 +145,7 @@
 .project-title {
  font-size: 24px;
  margin: 0;
- color: var(--maincolor600);
+ color: var(--clr-primary-300);
 }
 
 .project-description {
@@ -163,7 +163,7 @@
 
 .project-link {
  text-decoration: none;
- color: var(--maincolor600);
+ color: var(--clr-primary-300);
  font-weight: bold;
  display: inline-block;
  margin-top: 5px;
@@ -174,7 +174,7 @@
 
 .contact-wrapper {
  height: 50vh;
- background-color: var(--maincolor800);
+ background-color: var(--clr-primary-500);
 }
 
 .contact-heading {
@@ -195,12 +195,12 @@
 }
 
 .social-icons svg {
- fill: var(--maincolor600);
+ fill: var(--clr-primary-300);
  transition: 0.2s;
 }
 
 .social-icons svg:hover {
- fill: var(--maincolor300);
+ fill: var(--clr-primary-200);
  cursor: pointer;
 }
 

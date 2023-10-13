@@ -11,7 +11,7 @@
  justify-content: space-between;
  align-items: center;
  padding: 10px 20px;
- background-color: var(--maincolor800);
+ background-color: var(--clr-primary-500);
 }
 
 .logo img {
@@ -38,12 +38,12 @@
 }
 
 .nav-links li a:hover {
- background-color: var(--maincolor800);
+ background-color: var(--clr-primary-500);
 }
 
 .nav-toggle {
  display: none;
- background-color: var(--maincolor800);
+ background-color: var(--clr-primary-500);
  border: none;
  font-size: 24px;
 }
@@ -58,7 +58,7 @@
   top: 77px;
   left: 0;
   line-height: 1.8;
-  background-color: var(--maincolor800);
+  background-color: var(--clr-primary-500);
  }
 
  .nav-toggle {
