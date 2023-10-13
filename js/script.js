@@ -23,6 +23,14 @@ const projects = [
   liveLink: "https://envmuseum1.netlify.app/",
   githubLink: "https://github.com/EVeskje/Museum-Project-1.git",
  },
+ {
+  title: "Funny Fiesta",
+  description: "##",
+  screenshot: "/images/readme 5.png",
+  liveLink: "https://funnyfiestatime.netlify.app/",
+  githubLink:
+   "https://github.com/EVeskje/eirik-nordstrand-veskje-js1-resit.git",
+ },
 ];
 
 // Function to update project cards
