@@ -14,7 +14,8 @@
  --maincolor600: rgb(51 65 85);
  --maincolor700: #385d6a;
  --maincolor800: #e6e6e6;
- --maincolor900: #dddddd;
+ /* --maincolor900: #dddddd; */
+ --maincolor900: #fafafa;
 
  /** 2. Base typography
 -------------------------*/
