@@ -8,7 +8,6 @@ My personal portfolio webpage
 
 ## Description
 
-
 ## Assignment Brief
 
 You have been tasked with creating a personal portfolio webpage.
