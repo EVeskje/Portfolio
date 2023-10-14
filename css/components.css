@@ -127,6 +127,7 @@
 
 .project-description {
  margin: 10px 0;
+ color: var(--clr-primary-300);
 }
 
 .project-links {
