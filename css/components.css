@@ -82,7 +82,7 @@
 }
 
 /* For mobile devices, change the flex-direction to column */
-@media (max-width: 768px) {
+@media (max-width: 1049px) {
  .project-card {
   flex-direction: column;
   align-items: center;
@@ -103,7 +103,7 @@
 }
 
 /* For larger screens, reduce the image width to a reasonable size */
-@media (min-width: 769px) {
+@media (min-width: 1050px) {
  .project-screenshot {
   max-width: 54%;
   height: auto;
@@ -116,7 +116,7 @@
  flex: 1;
  display: flex;
  flex-direction: column;
- padding: 50px;
+ padding: 22px;
 }
 
 .project-title {
