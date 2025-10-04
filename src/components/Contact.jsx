@@ -1,3 +1,5 @@
+import CopyEmailButton from "@/components/CopyEmailButton.jsx";
+
 export default function Contact() {
   return (
     <section id="contact" className="section">
@@ -40,6 +42,7 @@ export default function Contact() {
             >
               GitHub
             </a>
+             <CopyEmailButton />
           </div>
         </div>
       </div>
