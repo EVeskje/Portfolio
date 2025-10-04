@@ -40,15 +40,6 @@ export default function Contact() {
             >
               GitHub
             </a>
-            <a
-              className="btn"
-              href="https://www.facebook.com/eveskje/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Facebook profile"
-            >
-              Facebook
-            </a>
           </div>
         </div>
       </div>
