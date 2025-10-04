@@ -1,4 +1,3 @@
-// src/components/Hero.jsx
 import { useTypedText } from "@/hooks/useTypedText.js";
 
 export default function Hero() {
