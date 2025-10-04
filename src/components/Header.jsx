@@ -75,7 +75,7 @@ export default function Header() {
       <div className="container relative flex items-center justify-between gap-3 py-3">
         <a href="#top" className="flex items-center gap-2" aria-label="Homepage">
           <img src="/images/Logo-env.png" alt="ENV logo" className="h-9 w-9 rounded-xl" />
-          <span className="font-bold tracking-wide">Eirik Veskje</span>
+          <span className="font-bold tracking-wide">Veskje</span>
         </a>
 
         {/* Desktop nav */}
