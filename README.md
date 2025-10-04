@@ -1,37 +1,71 @@
-## Portfolio
+# Portfolio – Eirik Nordstrand Veskje
 
-My personal portfolio webpage
+My personal portfolio website built with **React + Vite + Tailwind**. Clean, accessible, and fast.
 
-![image](/public/images/og-preview.jpg)
+[**🌐 Live Site**](https://portfolio-env.netlify.app/) · [GitHub Profile](https://github.com/EVeskje)
 
-[See live site](https://portfolio-env.netlify.app/)
+![Preview](public/images/og-preview.jpg)
 
-## Description
+---
 
-## Assignment Brief
+## ✨ Features
 
-You have been tasked with creating a personal portfolio webpage.
+- Modern UI with light/dark mode toggle
+- Sticky, accessible header with mobile menu
+- Scroll-reveal animations that respect `prefers-reduced-motion`
+- Data-driven projects grid (easy to add/update)
+- SEO tags + JSON-LD Person schema
+- Responsive design and keyboard-friendly navigation
 
-## Built With
+---
 
-- HTML
-- CSS
-- JavaScript
+## 🧰 Tech Stack
 
-## Getting Started
+- **React 18** + **Vite**
+- **Tailwind CSS**
+- Deployed on **Netlify**
 
-### Installing
+---
 
-1. Clone the repo:
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/EVeskje/Portfolio.git
+cd Portfolio
 ```
 
-## Contributing
+### 2. Install dependencies
 
-If you have any feedback or suggestions to make the project better, please fork the repo and create a pull request!
+```bash
+npm install
+```
 
-## Contact
+### 3. Run Dev Server
 
-Reach me at [linkedIn](https://www.linkedin.com/in/env-link/) or send an email to eirik.nv@hotmail.com
+```bash
+npm run dev
+```
+
+### 4. Build & Preview
+
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+## 🤝 Contributing
+
+Have ideas or suggestions? Feel free to open an issue or a pull request.
+
+---
+
+## 📬 Contact
+
+Made by Eirik Nordstrand Veskje.
+For inquiries, reach out via eirik.nv@hotmail.com or LinkedIn [@eirikveskje](https://www.linkedin.com/in/env-link/)
