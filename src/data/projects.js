@@ -3,28 +3,28 @@ export const projects = [
   title: "Holidaze",
   desc:
    "An modern platform that allows users to explore, book, and manage holiday venues through a responsive, user-friendly interface.",
-  img: "/images/projects/urban-traveller.jpg",
+  img: "/images/projects/holidaze.jpg",
   tech: ["React", "Vite", "Tailwind"],
-  live: "#",
-  repo: "https://github.com/EVeskje",
+  live: "https://holi-daiz.netlify.app/",
+  repo: "https://github.com/EVeskje/Holidaze.git",
  },
  {
   title: "Trendora",
   desc:
    "An sleek and modern eCommerce store.",
-  img: "/images/projects/urban-traveller.jpg",
+  img: "/images/projects/trendora.jpg",
   tech: ["React", "Vite", "Tailwind"],
-  live: "#",
-  repo: "https://github.com/EVeskje",
+  live: "https://trendora-ecom.netlify.app/",
+  repo: "https://github.com/EVeskje/react-ecom-store.git",
  },
  {
   title: "Bid Buddies",
   desc:
    "An engaging online auction marketplace where users can participate in auctions by bidding on items or listing their own items for auction.",
-  img: "/images/projects/urban-traveller.jpg",
-  tech: ["React", "Vite", "Tailwind"],
-  live: "#",
-  repo: "https://github.com/EVeskje",
+  img: "/images/projects/bid-buddies.jpg",
+  tech: ["JS", "Bootstrap"],
+  live: "https://bid-buddies.netlify.app/index.html",
+  repo: "https://github.com/EVeskje/BidBuddies-sp2.git",
  },
  {
   title: "Urban Traveller",
