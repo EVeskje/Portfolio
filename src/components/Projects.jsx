@@ -7,12 +7,14 @@ export default function Projects() {
       <div className="container">
         <div className="section-title">
           <h2 className="text-2xl font-bold">Selected projects</h2>
-          <a className="btn" href="https://github.com/EVeskje" target="_blank" rel="noopener">More on GitHub ↗</a>
+          <a className="btn" href="https://github.com/EVeskje" target="_blank" rel="noopener">
+            More on GitHub ↗
+          </a>
         </div>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((p) => (
-            <ProjectCard key={p.title} project={p} />
+          {projects.map((p, i) => (
+            <ProjectCard key={p.title} project={p} i={i} />
           ))}
         </div>
       </div>
