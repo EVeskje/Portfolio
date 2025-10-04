@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded gradient tile --> 
+  <rect x="30" y="30" width="452" height="452" rx="112" ry="112" fill="url(#g)"/>
+  <!-- Monogram E --> 
+  <g fill="#FFFFFF">
+    <rect x="112" y="112" width="63" height="288" rx="20" ry="20"/>
+    <rect x="112" y="112" width="288" height="46" rx="20" ry="20"/>
+    <rect x="112" y="233" width="242" height="46" rx="20" ry="20"/>
+    <rect x="112" y="354" width="288" height="46" rx="20" ry="20"/>
+  </g>
+</svg>
