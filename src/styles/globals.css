@@ -4,7 +4,7 @@
 
 /* Base font */
 :root { --radius: 1rem; }
-html { font-family: Outfit, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial; }
+html { font-family: Outfit, system-ui, -apple-system, Segoe UI, Roboto, Cantarell, "Helvetica Neue", Arial; }
 
 /***** Helpers *****/
 .container { @apply mx-auto max-w-6xl px-4; }
