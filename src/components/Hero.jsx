@@ -16,7 +16,7 @@ export default function Hero() {
         <div>
           <span className="inline-flex items-center gap-2 rounded-full border border-slate-200/70 bg-white/60 px-3 py-1 text-sm text-slate-500 dark:border-slate-800 dark:bg-slate-900/60">
             <svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true" className="opacity-70"><path fill="currentColor" d="M10 0l2.39 6.91h7.27l-5.88 4.27 2.39 6.91L10 13.82l-6.17 4.27 2.39-6.91L.34 6.91h7.27L10 0z"/></svg>
-            Front-end developer in progress
+            Front-end developer
           </span>
 
           <h1 className="mt-3 text-3xl font-extrabold leading-tight md:text-5xl">
