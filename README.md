@@ -2,7 +2,7 @@
 
 My personal portfolio webpage
 
-![image](/images/readme4.png)
+![image](/public/images/og-preview.jpg)
 
 [See live site](https://portfolio-env.netlify.app/)
 

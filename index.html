@@ -1,209 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-  <!-- Meta Tags -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-   name="description"
-   content="Hello there! My name is Eirik and I study front-end development at Noroff." />
+<!doctype html>
+<html lang="en" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- Title -->
-  <title>Eirik Nordstrand Veskje</title>
+    <title>Eirik Nordstrand Veskje · Front‑end Developer</title>
+    <meta name="description" content="Front‑end developer focused on clean, accessible UI with React, Vite and Tailwind. Explore projects, tech stack and contact." />
+    <meta name="theme-color" content="#0f172a" />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-   href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap"
-   rel="stylesheet" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Eirik Nordstrand Veskje · Front‑end Developer" />
+    <meta property="og:description" content="Clean, accessible UI. Selected projects and contact." />
+    <meta property="og:image" content="/og-preview.jpg" />
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
 
-  <!-- Favicon -->
-  <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 selection:bg-brand-500/20">
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-white/90 dark:focus:bg-slate-900/90 focus:rounded-lg focus:px-3 focus:py-2 focus:shadow-soft">Skip to content</a>
 
-  <!-- Hotjar Tracking Code for Portfolio Env -->
-  <script src="js/hotjar.js"></script>
- </head>
- <body>
-  <!-- Header -->
-  <header>
-   <nav class="navbar">
-    <a href="index.html" class="logo">
-     <img src="images/Logo-env.png" alt="Logo" />
-    </a>
-    <ul class="nav-links">
-     <li><a class="paragraph" href="#about-me-wrapper">About me</a></li>
-     <li><a class="paragraph" href="#projects">Portfolio</a></li>
-     <li><a class="paragraph" href="#contact">Contact</a></li>
-    </ul>
-    <button class="nav-toggle" id="navToggle">☰</button>
-   </nav>
-  </header>
+    <div id="root"></div>
 
-  <!-- Main Content -->
-  <main>
-   <div class="about-me-wrapper" id="about-me-wrapper">
-    <section id="about-me">
-     <h1>Eirik Nordstrand Veskje</h1>
-     <h2 class="toph2">Front-end development student at Noroff</h2>
-     <div class="about-wrapper flex-between">
-      <article>
-       <p class="title">About me</p>
-       <p class="paragraph">
-        Hello there! My name is Eirik, and I'm a student of front-end
-        development at Noroff. I've been involved in web development for just
-        under a year, so I'm relatively new to the field. However, I find it
-        extremely exciting, and I'm eager to learn more!
-       </p>
-       <p class="paragraph">
-        In my studies so far, I've gained a lot of knowledge in UX/UI design,
-        HTML, CSS, JavaScript and Wordpress.
-       </p>
-      </article>
-      <div class="img-container">
-       <div class="profile-picture-container">
-        <img
-         class="profile-picture"
-         src="images/IMG_7354 2.PNG"
-         alt="Profile picture of Eirik Nordstrand Veskje" />
-       </div>
-
-       <div class="picture-frame"></div>
-      </div>
-     </div>
-    </section>
-   </div>
-
-   <!-- Portfolio -->
-   <div class="portfolio-wrapper" id="projects">
-    <section id="portfolio">
-     <h2 class="portfolio-info">Portfolio</h2>
-     <p
-      class="paragraph portfolio-description portfolio-info desktop-portfolio-info">
-      Check out my latest projects!
-     </p>
-
-     <!-- Project Cards -->
-     <div class="project-card" id="project1">
-      <img src="" alt="Urban Traveller" class="project-screenshot" />
-      <div class="project-info">
-       <h3 class="project-title"></h3>
-       <p class="project-description"></p>
-       <a class="project-link live-link" target="_blank" href="">Live site</a>
-       <a class="project-link github-link" target="_blank" href=""
-        >GitHub Repo</a
-       >
-      </div>
-     </div>
-
-     <div class="project-card" id="project2">
-      <img src="" alt="Square Eyes" class="project-screenshot" />
-      <div class="project-info">
-       <h3 class="project-title"></h3>
-       <p class="project-description"></p>
-       <a class="project-link live-link" target="_blank" href="">Live site</a>
-       <a class="project-link github-link" target="_blank" href=""
-        >GitHub Repo</a
-       >
-      </div>
-     </div>
-
-     <div class="project-card" id="project3">
-      <img src="" alt="Community Science Museum" class="project-screenshot" />
-      <div class="project-info">
-       <h3 class="project-title"></h3>
-       <p class="project-description"></p>
-       <a class="project-link live-link" target="_blank" href="">Live site</a>
-       <a class="project-link github-link" target="_blank" href=""
-        >GitHub Repo</a
-       >
-      </div>
-     </div>
-
-     <div class="project-card" id="project4">
-      <img src="" alt="Funny Fiesta" class="project-screenshot" />
-      <div class="project-info">
-       <h3 class="project-title"></h3>
-       <p class="project-description"></p>
-       <a class="project-link live-link" target="_blank" href="">Live site</a>
-       <a class="project-link github-link" target="_blank" href=""
-        >GitHub Repo</a
-       >
-      </div>
-     </div>
-    </section>
-   </div>
-
-   <div class="contact-wrapper">
-    <section id="contact">
-     <h2 class="contact-heading">Contact</h2>
-     <div class="contact-container flex">
-      <div class="paragraph contact-method">
-       <p><b>Phone</b></p>
-       <p><b>E-mail</b></p>
-      </div>
-      <div class="paragraph contact-info">
-       <p>+47 95249744</p>
-       <p>eirik.nv@hotmail.com</p>
-      </div>
-     </div>
-     <div class="social-icons flex">
-      <a href="https://www.facebook.com/eveskje/">
-       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="34"
-        height="34"
-        fill="currentColor"
-        class="bi bi-facebook"
-        viewBox="0 0 16 16">
-        <path
-         d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-       </svg>
-      </a>
-
-      <a href="https://github.com/EVeskje">
-       <svg
-        width="34"
-        height="34"
-        viewBox="0 0 34 34"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <g clip-path="url(#clip0_81_12)">
-         <path
-          d="M17 0C7.6075 0 0 7.6075 0 17C0 24.5225 4.86625 30.8763 11.6237 33.1287C12.4737 33.2775 12.7925 32.7675 12.7925 32.3213C12.7925 31.9175 12.7713 30.5788 12.7713 29.155C8.5 29.9412 7.395 28.1137 7.055 27.1575C6.86375 26.6687 6.035 25.16 5.3125 24.7562C4.7175 24.4375 3.8675 23.6512 5.29125 23.63C6.63 23.6087 7.58625 24.8625 7.905 25.3725C9.435 27.9437 11.8788 27.2213 12.8563 26.775C13.005 25.67 13.4513 24.9262 13.94 24.5012C10.1575 24.0763 6.205 22.61 6.205 16.1075C6.205 14.2587 6.86375 12.7287 7.9475 11.5387C7.7775 11.1137 7.1825 9.37125 8.1175 7.03375C8.1175 7.03375 9.54125 6.5875 12.7925 8.77625C14.1525 8.39375 15.5975 8.2025 17.0425 8.2025C18.4875 8.2025 19.9325 8.39375 21.2925 8.77625C24.5438 6.56625 25.9675 7.03375 25.9675 7.03375C26.9025 9.37125 26.3075 11.1137 26.1375 11.5387C27.2213 12.7287 27.88 14.2375 27.88 16.1075C27.88 22.6313 23.9062 24.0763 20.1238 24.5012C20.74 25.0325 21.2712 26.0525 21.2712 27.6462C21.2712 29.92 21.25 31.7475 21.25 32.3213C21.25 32.7675 21.5688 33.2988 22.4188 33.1287C25.7937 31.9897 28.7265 29.8208 30.8041 26.9275C32.8816 24.0341 33.9994 20.562 34 17C34 7.6075 26.3925 0 17 0Z" />
-        </g>
-        <defs>
-         <clipPath id="clip0_81_12">
-          <rect width="34" height="34" />
-         </clipPath>
-        </defs>
-       </svg>
-      </a>
-
-      <a href="https://www.linkedin.com/in/env-link/">
-       <svg
-        width="34"
-        height="34"
-        viewBox="0 0 34 34"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-         fill-rule="evenodd"
-         clip-rule="evenodd"
-         d="M17 34C26.3888 34 34 26.3889 34 17C34 7.61108 26.3888 0 17 0C7.61121 0 0 7.61108 0 17C0 26.3889 7.61121 34 17 34ZM9.26428 23.7502H12.5814V13.2349H9.26428V23.7502ZM9 9.8916C9 10.9358 9.86035 11.8005 10.921 11.8005C11.9814 11.8005 12.8422 10.9358 12.8422 9.8916C12.8422 9.39014 12.6398 8.90918 12.2794 8.55444C12.0737 8.35181 11.826 8.19995 11.5566 8.10693C11.3542 8.03711 11.1395 8.00049 10.921 8.00049C10.4116 8.00049 9.92297 8.19971 9.56262 8.55444C9.20239 8.90918 9 9.39014 9 9.8916ZM21.6864 23.7502H24.9965H25V17.9741C25 15.1475 24.3828 12.9712 21.0258 12.9712C19.4117 12.9712 18.33 13.8433 17.8871 14.6694H17.8407V13.2349H14.6593V23.7502H17.9729V18.5435C17.9729 17.1724 18.2372 15.8472 19.9618 15.8472C21.6614 15.8472 21.6864 17.4116 21.6864 18.6313V23.7502Z" />
-       </svg>
-      </a>
-     </div>
-    </section>
-   </div>
-  </main>
-
-  <!-- JavaScript -->
-  <script type="module" src="js/script.js"></script>
-  <script type="module" src="js/features/mobile-nav.js"></script>
- </body>
+    <!-- JSON‑LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Eirik Nordstrand Veskje",
+        "email": "mailto:eirik.nv@hotmail.com",
+        "jobTitle": "Front-end Developer",
+        "sameAs": [
+          "https://github.com/EVeskje",
+          "https://www.linkedin.com/in/env-link/",
+          "https://www.facebook.com/eveskje/"
+        ]
+      }
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
