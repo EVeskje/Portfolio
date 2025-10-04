@@ -2,7 +2,7 @@
 
 My personal portfolio website built with **React + Vite + Tailwind**. Clean, accessible, and fast.
 
-[**🌐 Live Site**](https://portfolio-env.netlify.app/) · [GitHub Profile](https://github.com/EVeskje)
+[**Live Site**](https://portfolio-env.netlify.app/) · [GitHub Profile](https://github.com/EVeskje)
 
 ![Preview](public/images/og-preview.jpg)
 
