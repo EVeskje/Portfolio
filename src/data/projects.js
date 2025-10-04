@@ -11,7 +11,7 @@ export const projects = [
  {
   title: "Trendora",
   desc:
-   "An sleek and modern eCommerce store.",
+   "An sleek and modern eCommerce store built with Vite, Tailwind, and React - showcasing a fast, responsive, and stylish shopping experience.",
   img: "/images/projects/trendora.jpg",
   tech: ["React", "Vite", "Tailwind"],
   live: "https://trendora-ecom.netlify.app/",
@@ -31,9 +31,9 @@ export const projects = [
   desc:
    "A modern travel booking UI with responsive cards, filters and booking flow.",
   img: "/images/projects/urban-traveller.jpg",
-  tech: ["React", "Vite", "Tailwind"],
-  live: "#",
-  repo: "https://github.com/EVeskje",
+  tech: ["HTML", "CSS", "JS", "Wordpress CMS"],
+  live: "https://urbantraveller.netlify.app/",
+  repo: "https://github.com/Noroff-FEU-Assignments/project-exam-1-EVeskje",
  },
  {
   title: "Square Eyes",
@@ -41,8 +41,8 @@ export const projects = [
    "Streaming storefront built as a Noroff course project with clean component architecture.",
   img: "/images/projects/square-eyes.jpg",
   tech: ["HTML", "SCSS", "JS"],
-  live: "#",
-  repo: "https://github.com/EVeskje",
+  live: "https://cross-course-project-veskje.netlify.app/",
+  repo: "https://github.com/Noroff-FEU-Assignments/cross-course-project-EVeskje",
  },
  {
   title: "Community Science Museum",
@@ -50,8 +50,8 @@ export const projects = [
    "Accessible educational site with emphasis on typography and content structure.",
   img: "/images/projects/csm.jpg",
   tech: ["HTML", "CSS"],
-  live: "#",
-  repo: "https://github.com/EVeskje",
+  live: "https://envmuseum1.netlify.app/",
+  repo: "https://github.com/EVeskje/Museum-Project-1",
  },
  {
   title: "Funny Fiesta",
@@ -59,7 +59,7 @@ export const projects = [
    "A playful micro‑site exploring animation and motion while keeping performance solid.",
   img: "/images/projects/funny-fiesta.jpg",
   tech: ["JS", "CSS"],
-  live: "#",
-  repo: "https://github.com/EVeskje",
+  live: "https://funnyfiestatime.netlify.app/",
+  repo: "https://github.com/EVeskje/eirik-nordstrand-veskje-js1-resit",
  },
 ];
