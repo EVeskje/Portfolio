@@ -8,7 +8,6 @@ import Toolbox from '@/components/Toolbox.jsx';
 import { useReveal } from '@/hooks/useReveal.js';
 
 export default function App() {
-  // Attach reveal behavior to elements with .reveal
   useReveal();
 
   return (
@@ -24,7 +23,7 @@ export default function App() {
               <h2 className="text-2xl font-bold">About</h2>
             </div>
             <p className="reveal max-w-prose text-slate-600 dark:text-slate-300">
-              I’m a front-end development student at Noroff based in Norway. Over the last years I’ve built projects that strengthened my skills in UX/UI, HTML, CSS and JavaScript — lately with a growing love for React. I aim to craft interfaces that are fast, accessible and pleasant to use.
+              I’m a front-end developer based in Norway. Over the last years I’ve built projects that strengthened my skills in UX/UI, HTML, CSS and JavaScript — lately with a growing love for React. I aim to craft interfaces that are fast, accessible and pleasant to use.
             </p>
           </div>
         </section>

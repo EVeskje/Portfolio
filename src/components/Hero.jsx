@@ -29,7 +29,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-3 max-w-prose text-slate-600 dark:text-slate-300">
-            Front-end development student @ Noroff with a focus on modern tooling (React, Vite, Tailwind) and delightful UX. I care about performance, semantics and design systems.
+            Front-end developer with a focus on modern tooling (React, Vite, Tailwind) and delightful UX. I care about performance, semantics and design systems.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-3">
